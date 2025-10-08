@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Antonio Jose Tapia Alvarez - Desarrollador Full Stack especializado en React, Node.js y optimización de sistemas">
+  <title>Portafolio - Antonio Jose Tapia Alvarez</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <header>
+    <nav id="main-nav">
+      <h1>Antonio Jose Tapia Alvarez</h1>
+
+      <button class="nav-toggle" aria-controls="mobile-panel" aria-expanded="false" title="Menú de navegación">
+        <svg class="icon-menu" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="currentColor" d="M3 18h18v-2H3v2zM3 13h18v-2H3v2zM3 6v2h18V6H3z"/>
+        </svg>
+        <svg class="icon-close" viewBox="0 0 24 24" width="24" height="24" style="display:none;">
+          <path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </svg>
+      </button>
+
+      <div id="mobile-panel" class="nav-menu-wrapper">
+        <ul>
+          <li><a href="#sobremi">Sobre mí</a></li>
+          <li><a href="#educacion">Educación</a></li>
+          <li><a href="#proyecto">Proyectos</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      
+        <!-- button type="button"
+        <a href="./assets/Currículum_V4.pdf" download="Currículum_V4.pdf">Descargar CV</a>
+      </button> 
+      -->
+      
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Sección Sobre Mí -->
+    <section id="sobremi">
+      <h2>Sobre Mí</h2>
+      <img src="./assets/Antonio Jose Tapia Alvarez.jpg" alt="Foto de perfil de Antonio Jose Tapia Alvarez" width="300" height="300">
+
+      <div class="contact-links" aria-label="Medios de contacto">
+        <a href="https://www.linkedin.com/in/antonio-jose-tapia-alvarez-0aab6820b/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.3 2.3-2.7 4.7-2.7 5 0 5.9 3.3 5.9 7.6V24h-5V16.4c0-1.8 0-4.1-2.5-4.1s-2.9 1.9-2.9 3.9V24h-5V8z"/>
+          </svg>
+        </a>
+
+        <a href="https://github.com/Afastwight" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.93 3.19 9.1 7.6 10.57.56.1.76-.24.76-.54 0-.27-.01-1-.02-1.96-3.09.67-3.75-1.49-3.75-1.49-.5-1.27-1.22-1.61-1.22-1.61-.99-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.47-.28-5.07-1.23-5.07-5.47 0-1.21.43-2.2 1.13-2.98-.11-.28-.49-1.41.11-2.94 0 0 .92-.29 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.09-1.42 3.01-1.13 3.01-1.13.6 1.53.22 2.66.11 2.94.7.78 1.13 1.77 1.13 2.98 0 4.25-2.61 5.19-5.09 5.46.39.33.74.97.74 1.96 0 1.41-.01 2.55-.01 2.9 0 .3.2.65.77.54A11.5 11.5 0 0 0 23.25 11.75C23.25 5.48 18.27.5 12 .5z"/>
+          </svg>
+        </a>
+
+        <a href="mailto:antoniotapiaalvarez@gmail.com" class="icon-link" aria-label="Correo">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </a>
+
+        <a href="tel:+593997963005" class="icon-link" aria-label="Teléfono">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M6.6 10.8c1.4 2.9 3.6 5 6.5 6.5l2.2-2.2c.3-.3.7-.4 1-.3 1.1.4 2.3.7 3.5.7.6 0 1 .5 1 1V20c0 .6-.4 1-1 1C9.8 21 3 14.2 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.3 2.4.7 3.5.1.4 0 .8-.3 1l-2.3 2.3z"/>
+          </svg>
+        </a>
+      </div>
+      
+      <p>
+        Hola, me llamo Antonio Tapia, estudio Ingeniería en Sistemas y soy un apasionado por la tecnología.
+        Me considero una persona autodidacta, con un gran interés por aprender y experimentar con nuevas herramientas y tecnologías para comprender cómo pueden mejorar procesos, optimizar costos y aumentar la eficiencia en los sistemas.
+        Desde mis primeros proyectos, he disfrutado analizar problemas y convertir ideas en soluciones prácticas, aplicando mis conocimientos en desarrollo web, backend, bases de datos y ciberseguridad.
+        Mi enfoque siempre ha sido buscar la forma más inteligente y rentable de hacer las cosas, aprovechando la innovación como un medio para reducir gastos operativos y potenciar la productividad.
+      </p>
+    
+    </section>
+
+    <!-- Sección Educación -->
+    <section id="educacion">
+      <h2>Educación</h2>
+      <ul>
+        <li>
+          <h3>Ingeniería en Sistemas </h3>
+          <p><strong>Universidad de Guayaquil</strong></p>
+          <p><time datetime="2021">2021</time> - Presente</p>
+        </li>
+        <li>
+          <h3>Pasantia - Desarrollo & Soporte TI</h3>
+          <p><strong>Universidad de Guayaquil</strong></p>
+          <p><time datetime="2025-03">Marzo 2025</time> - <time datetime="2025-07">Julio 2025</time></p>
+        </li>
+        <li>
+          <h3>Bachiller en Ciencias</h3>
+          <p><strong>Dr. Alfredo Raúl Vera Vera</strong></p>
+          <p><time datetime="2008">2008</time> - <time datetime="2020">2020</time></p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyecto">
+      <h2>Proyectos</h2>
+      <article>
+        <img src="./assets/eco.png" alt="Captura de pantalla del programa de descarga musica Eco" width="600" height="400" loading="Lazy">
+        <h3>Aplicacion para la Descarga de Musica - Eco V1</h3>
+        <p>Desarrollé una aplicacion escritorio de codigo abierto enfocado en la reproducción y gestión de música local </p>
+        <a href="https://github.com/Afastwight/Eco" target="_blank" rel="noopener noreferrer">Ver Eco</a>
+        <h4>Características:</h4>
+        <ul>
+          <li>Interfaz moderna desarrollada con Tkinter</li>
+          <li>Separación de la lógica y la vista bajo una arquitectura tipo MVC</li>
+          <li>Funciones iniciales: limpieza de logs, ventanas</li>
+          <li>Enfoque en una experiencia fluida, estética y funcional</li>
+        </ul>
+      </article>
+      <article>
+        <img src="./assets/farmaciapopular.png" alt="Captura de pantalla del sistema Farmacia Popular" width="600" height="400" loading="lazy">
+        <h3>Sistema Integral Personalizado para una Farmacia - Farmacia Popular</h3>
+        <p>Uno de mis proyectos más importantes. Este sistema fue diseñado para modernizar y digitalizar la gestión de farmacias.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">Ver Farmacia Popular</a>
+        <h4>Características:</h4>
+        <ul>
+          <li>Inventario con categorías, subcategorías y productos</li>
+          <li>Ventas con facturación electrónica</li>
+          <li>Registro de ingresos y egresos</li>
+          <li>Gestión de usuarios y clientes</li>
+          <li>Reportes y análisis de ventas en tiempo real</li>
+        </ul>
+      </article>
+
+      <article>
+        <img src="./assets/medicasa.png" alt="Captura de pantalla de la landing page Medicasa" width="600" height="400" loading="lazy">
+        <h3>Página Landing Medicasa - Servicio de Medicina a Domicilio</h3>
+        <p>Desarrollé una landing page para Medicasa, enfocada en aumentar la visibilidad de la marca y facilitar el contacto con los clientes.</p>
+        <a href="https://medicasa-domicile.netlify.app/" target="_blank" rel="noopener noreferrer">Ver Medicasa</a>
+        <h4>Características:</h4>
+        <ul>
+          <li>Optimización para brindar información clara y rápida al usuario</li>
+          <li>Conexión directa con WhatsApp para asesoría inmediata</li>
+          <li>Ubicación de la marca en la ciudad para mayor confianza y accesibilidad</li>
+        </ul>
+      </article>
+
+      <article>
+        <img src="./assets/visteteonline.png" alt="Captura de pantalla de la plataforma Vístete Online" width="600" height="400" loading="lazy">
+        <h3>Página E-commerce Vístete Online - Plataforma de comercio electrónico de ropa</h3>
+        <p>Desarrollé una plataforma de comercio electrónico completa, enfocada en la venta de ropa y accesorios para hombres, mujeres y niños.</p>
+        <a href="https://visteteonline.netlify.app/" target="_blank" rel="noopener noreferrer">Ver Vístete Online</a>
+        <h4>Características:</h4>
+        <ul>
+          <li>Autenticación de usuarios con correo/contraseña, Google y recuperación de contraseña</li>
+          <li>Catálogo dinámico con filtros avanzados (categoría, precio, talla, etiquetas) y carrito persistente</li>
+          <li>Diseño responsive adaptado a escritorio y móviles</li>
+          <li>Gestión de perfil: edición de datos personales, direcciones y seguimiento de pedidos</li>
+          <li>Página de contacto con formulario y acceso directo vía WhatsApp</li>
+          <li>UI moderna: animaciones al hacer scroll, tarjetas con glassmorphism y componentes reutilizables</li>
+          <li>Promociones y destacados: sección de ofertas y productos más vendidos</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <article>
+        <h3>Desarrollador Full-Stack</h3>
+        <p><strong>Freelance / Emprendimientos</strong></p>
+        <p><time datetime="2021">2021</time> - Presente</p>
+
+        <p>Diseño e implementación de soluciones completas (frontend + backend) para clientes y proyectos propios, con foco en eficiencia, seguridad y escalabilidad.</p>
+
+        <h4>Responsabilidades principales</h4>
+        <ul>
+          <li>Desarrollo de arquitecturas modulares y componentes reutilizables.</li>
+          <li>Construcción de APIs REST y lógica de backend para integraciones con pasarelas de pago y sistemas legacy.</li>
+          <li>Automatización de procesos (ETL, reportes y notificaciones) y creación de dashboards para análisis de ventas.</li>
+          <li>Implementación de políticas de seguridad y control de acceso por roles (Auth + RBAC).</li>
+          <li>Optimización de rendimiento y reducción de costos de hosting/infraestructura.</li>
+        </ul>
+
+        <h4>Logros destacados</h4>
+        <ul>
+          <li>Implementé dashboards que redujeron el tiempo de reporte en un 70% (informes diarios a automatizados).</li>
+          <li>Reduje costos operativos en proyectos pequeños al migrar partes del stack a Firebase y hosting estático.</li>
+          <li>Entrega constante de MVPs en plazos cortos (2–4 semanas), mejorando validación temprana con clientes.</li>
+        </ul>
+      </div>
+    </article>
+
+      <article>
+        <h3>Pasantia - Desarrollo & Soporte TI </h3>
+        <p><strong>Universidad de Guayaquil - Facultad de Arquitectura</strong></p>
+        <p><time datetime="2025">Mar 2025</time> - <time datetime="2025">Jul 2025</time></p>
+        <p>Apoyo en desarrollo web, administración de bases de datos y soporte técnico para asegurar disponibilidad y rendimiento de sistemas internos.</p>
+
+        <h4>Tareas realizadas</h4>
+        <ul>
+          <li>Instalación y mantenimiento de software en equipos de oficina.</li>
+          <li>Soporte en impresoras y periféricos; resolución de incidencias de hardware y software.</li>
+          <li>Gestión y administración básica de bases de datos (backups, permisos y consultas).</li>
+          <li>Desarrollo y mantenimiento de sitios web institucionales aplicando buenas prácticas de usabilidad.</li>
+          <li>Documentación técnica de incidentes y procedimientos (base de conocimiento).</li>
+        </ul>
+
+        <h4>Tecnologías usadas</h4>
+        <ul class="tech-list">
+          <li>Sistemas operativos: Windows, Windows Server</li>
+          <li>Bases de datos: MySQL, PostgreSQL</li>
+          <li>Herramientas: Jira, Git, HTML/CSS/JS</li>
+        </ul>
+
+        <h4>Logros</h4>
+        <ul>
+          <li>Mejoré tiempos de resolución de incidencias al documentar procedimientos frecuentes.</li>
+          <li>Colaboré en la puesta en marcha de un sitio web institucional con mejores métricas de acceso.</li>
+        </ul>
+      </div>
+      </article>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <article>
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Vue</li>
+          <li>Vite</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Backend</h3>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C / C++</li>
+          <li>C# / .NET</li>
+          <li>APIs</li>
+          <li>REST APIs</li>
+          <li>Firebase (Auth, Firestore, Storage)</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Desarrollo Móvil</h3>
+        <ul>
+          <li>Ionic</li>
+          <li>Android Studio</li>
+          <li>Kotlin</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Datos / IT</h3>
+        <ul>
+          <li>MySQL</li>
+          <li>PostgreSQL</li>
+          <li>PL/SQL</li>
+          <li>SQL</li>
+          <li>Oracle</li>
+          <li>Jasper Report</li>
+          <li>Power BI</li>
+          <li>Git</li>
+          <li>Jira</li>
+          <li>Linux</li>
+          <li>Windows Server</li>
+          <li>Redes LAN/WAN</li>
+          <li>ISO/IEC 27001</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Habilidades Blandas</h3>
+        <ul>
+          <li>Trabajo en equipo</li>
+          <li>Comunicación efectiva</li>
+          <li>Resolución de problemas</li>
+          <li>Adaptabilidad</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Sección Cursos -->
+    <section id="cursos">
+      <h2>Cursos</h2>
+        <div class="qr-cursos">
+          <h3>¡Accede a mis certificaciones!</h3>
+          <p>Escanea el código QR para ver mi perfil de cursos.</p>
+        </div>
+        <img src="./assets/Codigo QR.png" alt="Codigo QR de mis cursos" loading="lazy">
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="container">
+      <h2>Contacto</h2>
+      <form action="https://formsubmit.co/antoniotapiaalvarez@gmail.com" method="POST" autocomplete="on" novalidate>
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+        </div>
+
+        <div>
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+        </div>
+
+        <div style="display:none;">
+          <!-- Honeypot anti-spam -->
+          <label for="_honey">No rellenar</label>
+          <input type="text" id="_honey" name="_honey" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+        </div>
+
+        <input type="hidden" name="_subject" value="Nuevo mensaje desde el portafolio">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Antonio Jose Tapia Alvarez. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./nav.js"></script>
+  <script>
+    // Actualizar año automáticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
